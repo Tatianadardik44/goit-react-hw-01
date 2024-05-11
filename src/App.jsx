@@ -9,7 +9,7 @@ import Profile from './components/Profile/Profile';
 import friends from "./friends.json";
 import FriendList from './components/Frend/FriendList';
 import transactions from './transactions.json';
-import TransactionHistory from './components/TransactionHistory';
+import TransactionHistory from './components/Transactions/TransactionHistory';
  function App() {
   return (
     <>

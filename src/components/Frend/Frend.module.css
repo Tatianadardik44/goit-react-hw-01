@@ -1,3 +1,22 @@
 .conteiner {
   display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.box {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 10px;
+}
+.name {
+  font-weight: 500;
+}
+.stats {
+  font-size: 12px;
+}
+.offline {
+  color: red;
+}
+.online {
+  color: green;
 }
