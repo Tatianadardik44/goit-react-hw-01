@@ -14,7 +14,7 @@
   color: white;
   font-weight: 500;
 }
-.list:nth-child(odd) {
+.list:nth-child(even) {
   background-color: #d3d3d3;
 }
 .scroll {

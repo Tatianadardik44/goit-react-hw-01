@@ -9,17 +9,15 @@ const TransactionHistory = ({ items }) => {
                     <th className={`${css.item} ${css.title}`}>Currency</th>
                 </tr>
             </thead>
+            <tbody > 
             {items.map((item) => {
-                return <tbody key={item.id} className={css.list}> 
-                    <tr>
+                return  <tr key={item.id} className={css.list}>
                         <td className={`${css.item} ${css.scroll}`}>{item.type}</td>
                         <td className={`${css.item} ${css.scroll}`}>{item.amount}</td>
                         <td className={`${css.item} ${css.scroll}`}>{item.currency}</td>
                     </tr>
-    
+                   })}
                 </tbody>
-
-            })}
         </table>
     );
     
